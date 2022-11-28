@@ -3,19 +3,13 @@
 # Nama: Muhamad Faisal Ilham
 # Nim: 312210322
 
-> Gunakan while untuk memasukkan data secara berulang bulang dan masukkan input ()
+![204179408-d1632219-efff-46f5-a6ec-a197c9ffab0e](https://user-images.githubusercontent.com/115516624/204190656-8520f858-413b-4755-ac22-ca15131b3b1a.jpeg)
 
-> Lalu, gunakan .append() untuk menambahkan elemen ke dalam list
+> Penggunaan while True
 
-> jika ingin menetapkan "t" menjadi stop maka gunakan tanya = input('Tambahkan Data (y/t) ? ') if ( tanya == 't'): stop = True
+  while True berfungsi untuk mendeteksi jika format yang diinputkan bukan berupa type maka akan muncul error
 
-> Lalu tampilkan elemen element nya, Jika langkah langkah diatas suadah benar
+> Saya membuat looping agar program terus berjalan
 
-code:
-
-![Praktikum-4](https://user-images.githubusercontent.com/115516624/203110286-633c9439-1bfa-4dc0-b689-fe37662bda11.png)
-r
-
-Outputnya:
-
-![Praktikum4-output](https://user-images.githubusercontent.com/115516624/203111322-fe39fcab-8b38-4eb5-9c70-16ed09e419f0.png)
+    while True:
+    c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")
